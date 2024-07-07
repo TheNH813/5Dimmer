@@ -19,6 +19,7 @@ function genPersonalRoboports(inputs)
     --Item
     if inputs.new then
         item.name = "5d-personal-roboport-equipment-" .. inputs.number
+        equipment.take_result = "5d-personal-roboport-equipment-" .. inputs.number
     end
     item.icon = "__5dim_equipment__/graphics/icon/personal-roboport/personal-roboport-equipment-icon-" .. inputs.number .. ".png"
     item.subgroup = inputs.subgroup
